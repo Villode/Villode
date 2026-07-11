@@ -1,7 +1,5 @@
 <div align="center">
 
-<h1>Villode</h1>
-
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=2600&pause=900&color=00C9FF&center=true&vCenter=true&width=620&height=38&lines=Linux+Desktop+%26+Open-source+Developer;Building+for+the+Hyprland+ecosystem;Polished+desktop+tools%2C+built+in+the+open)](https://git.io/typing-svg)
 
 <p><em>Building a polished, accessible desktop experience for Hyprland.</em></p>
@@ -10,19 +8,16 @@
 ![Linux](https://img.shields.io/badge/Platform-Linux-00C9FF?style=flat-square&logo=linux&logoColor=white)
 ![Focus](https://img.shields.io/badge/Focus-Hyprland-00A67E?style=flat-square&logo=wayland&logoColor=white)
 
-</div>
+<br /><br />
 
----
-
-## `> contributions --play`
-
-<div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Villode/Villode/output/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Villode/Villode/output/github-contribution-grid-snake.svg" />
     <img src="https://raw.githubusercontent.com/Villode/Villode/output/github-contribution-grid-snake.svg" alt="Contribution snake animation" />
   </picture>
 </div>
+
+---
 
 ## `> featured_projects`
 
