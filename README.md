@@ -10,15 +10,15 @@
 
 </div>
 
-## `> whoami`
+## `> contributions --play`
 
-```yaml
-name: Villode
-focus: Linux / Hyprland desktop experience
-currently_building: Caelestia localization & desktop integration
-toolbox: [Python, Shell, QML, JavaScript, HTML, CSS]
-philosophy: "Beautiful software should also be easy to use."
-```
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Villode/Villode/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Villode/Villode/output/github-contribution-grid-snake.svg" />
+    <img src="https://raw.githubusercontent.com/Villode/Villode/output/github-contribution-grid-snake.svg" alt="Contribution snake animation" />
+  </picture>
+</div>
 
 ## `> featured_projects`
 
@@ -52,16 +52,6 @@ philosophy: "Beautiful software should also be easy to use."
   <img width="49%" src="https://streak-stats.demolab.com?user=Villode&theme=tokyonight&hide_border=true&border_radius=12&locale=zh_Hans" alt="GitHub streak" />
   <br />
   <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=Villode&theme=tokyo-night&hide_border=true&radius=12&area=true" alt="Contribution activity graph" />
-</div>
-
-## `> contributions --play`
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Villode/Villode/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Villode/Villode/output/github-contribution-grid-snake.svg" />
-    <img src="https://raw.githubusercontent.com/Villode/Villode/output/github-contribution-grid-snake.svg" alt="Contribution snake animation" />
-  </picture>
 </div>
 
 <div align="center">
