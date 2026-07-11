@@ -1,14 +1,18 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:7F00FF,50:00C9FF,100:00F5A0&text=VILLODE&fontColor=ffffff&fontSize=58&fontAlignY=36&desc=BUILDING%20A%20BEAUTIFUL%20LINUX%20DESKTOP&descAlignY=57&animation=fadeIn" alt="Villode header" />
-
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=23&duration=2800&pause=900&color=00C9FF&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Villode+%F0%9F%91%8B;Linux+Desktop+Enthusiast+%F0%9F%90%A7;Hyprland+%C3%97+Caelestia+Tinkerer+%E2%9C%A8;%E6%8A%8A%E5%A5%BD%E7%9C%8B%E7%9A%84+Linux+%E6%A1%8C%E9%9D%A2%EF%BC%8C%E5%81%9A%E5%BE%97%E6%9B%B4%E6%98%93%E7%94%A8%E4%B8%80%E7%82%B9)](https://git.io/typing-svg)
+<h1>Villode</h1>
 
-[![Website](https://img.shields.io/badge/🌐_Villode.com-7F00FF?style=for-the-badge)](https://villode.com)
-[![Profile views](https://komarev.com/ghpvc/?username=Villode&label=PROFILE+VIEWS&color=00c9ff&style=for-the-badge)](https://github.com/Villode)
-[![Followers](https://img.shields.io/github/followers/Villode?label=FOLLOWERS&style=for-the-badge&color=00f5a0)](https://github.com/Villode?tab=followers)
+<h3>Linux Desktop & Open-source Developer</h3>
+
+<p>Building a polished, accessible desktop experience for Hyprland.</p>
+
+[![Website](https://img.shields.io/badge/Website-Villode.com-7F00FF?style=flat-square&logo=googlechrome&logoColor=white)](https://villode.com)
+![Linux](https://img.shields.io/badge/Platform-Linux-00C9FF?style=flat-square&logo=linux&logoColor=white)
+![Focus](https://img.shields.io/badge/Focus-Hyprland-00A67E?style=flat-square&logo=wayland&logoColor=white)
 
 </div>
+
+---
 
 ## `> contributions --play`
 
@@ -78,5 +82,3 @@
 如果我的项目对你有帮助，欢迎留下一个 ⭐
 
 </div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:7F00FF,50:00C9FF,100:00F5A0&section=footer" alt="Footer" />
