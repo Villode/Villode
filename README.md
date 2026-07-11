@@ -1,50 +1,65 @@
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:7F00FF,50:00C9FF,100:00F5A0&text=VILLODE&fontColor=ffffff&fontSize=58&fontAlignY=36&desc=BUILDING%20A%20BEAUTIFUL%20LINUX%20DESKTOP&descAlignY=57&animation=fadeIn" alt="Villode header" />
+
 <div align="center">
 
-# Hi, I'm Villode 👋
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=23&duration=2800&pause=900&color=00C9FF&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Villode+%F0%9F%91%8B;Linux+Desktop+Enthusiast+%F0%9F%90%A7;Hyprland+%C3%97+Caelestia+Tinkerer+%E2%9C%A8;%E6%8A%8A%E5%A5%BD%E7%9C%8B%E7%9A%84+Linux+%E6%A1%8C%E9%9D%A2%EF%BC%8C%E5%81%9A%E5%BE%97%E6%9B%B4%E6%98%93%E7%94%A8%E4%B8%80%E7%82%B9)](https://git.io/typing-svg)
 
-### Linux Desktop Enthusiast · Open-source Builder · Hyprland Tinkerer
-
-把好看的 Linux 桌面，做得更易用一点。
-
-[![Website](https://img.shields.io/badge/Villode.com-111827?style=for-the-badge&logo=googlechrome&logoColor=white)](https://villode.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Villode-181717?style=for-the-badge&logo=github)](https://github.com/Villode)
+[![Website](https://img.shields.io/badge/🌐_Villode.com-7F00FF?style=for-the-badge)](https://villode.com)
+[![Profile views](https://komarev.com/ghpvc/?username=Villode&label=PROFILE+VIEWS&color=00c9ff&style=for-the-badge)](https://github.com/Villode)
+[![Followers](https://img.shields.io/github/followers/Villode?label=FOLLOWERS&style=for-the-badge&color=00f5a0)](https://github.com/Villode?tab=followers)
 
 </div>
 
----
+## `> whoami`
 
-### 👨‍💻 关于我
+```yaml
+name: Villode
+focus: Linux / Hyprland desktop experience
+currently_building: Caelestia localization & desktop integration
+toolbox: [Python, Shell, QML, JavaScript, HTML, CSS]
+philosophy: "Beautiful software should also be easy to use."
+```
 
-- 🐧 专注于 **Linux / Hyprland 桌面体验**
-- ✨ 正在维护 Caelestia 的中文化与桌面整合项目
-- 🛠️ 喜欢用 Python、Shell、QML 和 Web 技术做实用工具
-- 🌐 个人网站：[Villode.com](https://villode.com)
-
-### 🚀 精选项目
-
-| 项目 | 简介 | 技术 |
-| --- | --- | --- |
-| [villode-caelestia](https://github.com/Villode/villode-caelestia) | Caelestia 二次开发整合：按需安装中文化、Dock、Desktop 和 Launcher | Shell |
-| [villode-launcher](https://github.com/Villode/villode-launcher) | 为 Hyprland 打造的 macOS 风格 GTK4 应用启动器 | Python |
-| [caelestia-zh-cn](https://github.com/Villode/caelestia-zh-cn) | Caelestia Shell 简体中文界面补丁与安装工具 | Shell |
-| [villode-desktop](https://github.com/Villode/villode-desktop) | 支持图片、视频和自定义 HTML 的桌面背景管理器 | HTML |
-| [villode-dock](https://github.com/Villode/villode-dock) | 带实时 Hyprland 模糊和 Launcher 集成的 GTK3 Dock | Python |
-
-### 🧰 技术栈
-
-<p>
-  <img src="https://skillicons.dev/icons?i=linux,python,bash,js,html,css,git,github&theme=dark" alt="Linux, Python, Bash, JavaScript, HTML, CSS, Git and GitHub" />
-</p>
-
-### 📊 GitHub 数据
+## `> featured_projects`
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Villode&show_icons=true&hide_border=true&theme=transparent&locale=cn" alt="Villode 的 GitHub 统计" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Villode&layout=compact&hide_border=true&theme=transparent&locale=cn" alt="Villode 最常用的语言" />
+  <a href="https://github.com/Villode/villode-caelestia">
+    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Villode&repo=villode-caelestia&theme=tokyonight&hide_border=true&border_radius=12" alt="villode-caelestia" />
+  </a>
+  <a href="https://github.com/Villode/villode-launcher">
+    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Villode&repo=villode-launcher&theme=tokyonight&hide_border=true&border_radius=12" alt="villode-launcher" />
+  </a>
+  <a href="https://github.com/Villode/villode-desktop">
+    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Villode&repo=villode-desktop&theme=tokyonight&hide_border=true&border_radius=12" alt="villode-desktop" />
+  </a>
+  <a href="https://github.com/Villode/villode-dock">
+    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Villode&repo=villode-dock&theme=tokyonight&hide_border=true&border_radius=12" alt="villode-dock" />
+  </a>
 </div>
 
----
+## `> tech_stack`
 
 <div align="center">
-  <sub>感谢你的来访。如果我的项目对你有帮助，欢迎点个 ⭐</sub>
+  <img src="https://skillicons.dev/icons?i=linux,python,bash,qt,js,html,css,git,github,vscode&theme=dark&perline=10" alt="Tech stack" />
 </div>
+
+## `> achievements --stats`
+
+<div align="center">
+  <img width="98%" src="https://github-profile-trophy.vercel.app/?username=Villode&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=7" alt="GitHub trophies" />
+  <br />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Villode&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12&include_all_commits=true&locale=cn" alt="GitHub stats" />
+  <img width="49%" src="https://streak-stats.demolab.com?user=Villode&theme=tokyonight&hide_border=true&border_radius=12&locale=zh_Hans" alt="GitHub streak" />
+  <br />
+  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=Villode&theme=tokyo-night&hide_border=true&radius=12&area=true" alt="Contribution activity graph" />
+</div>
+
+<div align="center">
+
+### Thanks for visiting · 感谢来访
+
+如果我的项目对你有帮助，欢迎留下一个 ⭐
+
+</div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:7F00FF,50:00C9FF,100:00F5A0&section=footer" alt="Footer" />
