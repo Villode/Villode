@@ -2,9 +2,9 @@
 
 <h1>Villode</h1>
 
-<h3>Linux Desktop & Open-source Developer</h3>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=2600&pause=900&color=00C9FF&center=true&vCenter=true&width=620&height=38&lines=Linux+Desktop+%26+Open-source+Developer;Building+for+the+Hyprland+ecosystem;Polished+desktop+tools%2C+built+in+the+open)](https://git.io/typing-svg)
 
-<p>Building a polished, accessible desktop experience for Hyprland.</p>
+<p><em>Building a polished, accessible desktop experience for Hyprland.</em></p>
 
 [![Website](https://img.shields.io/badge/Website-Villode.com-7F00FF?style=flat-square&logo=googlechrome&logoColor=white)](https://villode.com)
 ![Linux](https://img.shields.io/badge/Platform-Linux-00C9FF?style=flat-square&logo=linux&logoColor=white)
