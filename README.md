@@ -22,20 +22,36 @@
 
 ## `> featured_projects`
 
-<div align="center">
-  <a href="https://github.com/Villode/villode-caelestia">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Villode&repo=villode-caelestia&theme=tokyonight&hide_border=true&border_radius=12" alt="villode-caelestia" />
-  </a>
-  <a href="https://github.com/Villode/villode-launcher">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Villode&repo=villode-launcher&theme=tokyonight&hide_border=true&border_radius=12" alt="villode-launcher" />
-  </a>
-  <a href="https://github.com/Villode/villode-desktop">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Villode&repo=villode-desktop&theme=tokyonight&hide_border=true&border_radius=12" alt="villode-desktop" />
-  </a>
-  <a href="https://github.com/Villode/villode-dock">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Villode&repo=villode-dock&theme=tokyonight&hide_border=true&border_radius=12" alt="villode-dock" />
-  </a>
-</div>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Villode/villode-caelestia">✨ villode-caelestia</a></h3>
+      <p>Caelestia 二次开发整合：按需安装中文化、Dock、Desktop 和 Launcher。</p>
+      <img src="https://img.shields.io/badge/Shell-121629?style=flat-square&logo=gnubash&logoColor=00C9FF" alt="Shell" />
+      <img src="https://img.shields.io/github/stars/Villode/villode-caelestia?style=flat-square&color=7F00FF" alt="Stars" />
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Villode/villode-launcher">🚀 villode-launcher</a></h3>
+      <p>为 Hyprland 打造的 macOS 风格 GTK4 应用启动器。</p>
+      <img src="https://img.shields.io/badge/Python-121629?style=flat-square&logo=python&logoColor=00C9FF" alt="Python" />
+      <img src="https://img.shields.io/github/stars/Villode/villode-launcher?style=flat-square&color=7F00FF" alt="Stars" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Villode/villode-desktop">🖼️ villode-desktop</a></h3>
+      <p>支持图片、视频和自定义 HTML 的 Hyprland 桌面背景管理器。</p>
+      <img src="https://img.shields.io/badge/HTML-121629?style=flat-square&logo=html5&logoColor=00C9FF" alt="HTML" />
+      <img src="https://img.shields.io/github/stars/Villode/villode-desktop?style=flat-square&color=7F00FF" alt="Stars" />
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Villode/villode-dock">🌌 villode-dock</a></h3>
+      <p>带实时 Hyprland 模糊与 Launcher 集成的 macOS 风格 GTK3 Dock。</p>
+      <img src="https://img.shields.io/badge/Python-121629?style=flat-square&logo=python&logoColor=00C9FF" alt="Python" />
+      <img src="https://img.shields.io/github/stars/Villode/villode-dock?style=flat-square&color=7F00FF" alt="Stars" />
+    </td>
+  </tr>
+</table>
 
 ## `> tech_stack`
 
@@ -46,9 +62,10 @@
 ## `> achievements --stats`
 
 <div align="center">
-  <img width="98%" src="https://github-profile-trophy.vercel.app/?username=Villode&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=7" alt="GitHub trophies" />
+  <img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Villode&theme=tokyonight" alt="GitHub profile details" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Villode&theme=tokyonight" alt="GitHub stats" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Villode&theme=tokyonight" alt="Repositories per language" />
   <br />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Villode&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12&include_all_commits=true&locale=cn" alt="GitHub stats" />
   <img width="49%" src="https://streak-stats.demolab.com?user=Villode&theme=tokyonight&hide_border=true&border_radius=12&locale=zh_Hans" alt="GitHub streak" />
   <br />
   <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=Villode&theme=tokyo-night&hide_border=true&radius=12&area=true" alt="Contribution activity graph" />
