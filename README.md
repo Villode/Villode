@@ -59,12 +59,6 @@ Everything starts in the terminal. I prototype in Python/Bash, test on live Hypr
 
 ## Activity
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Villode/Villode/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Villode/Villode/output/github-contribution-grid-snake.svg" />
-  <img src="https://raw.githubusercontent.com/Villode/Villode/output/github-contribution-grid-snake.svg" alt="Contribution snake animation" />
-</picture>
-
 <div align="center">
   <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=Villode&theme=tokyo-night&hide_border=true&radius=12&area=true" alt="Contribution activity graph" />
 </div>
