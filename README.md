@@ -1,79 +1,120 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=2600&pause=900&color=00C9FF&center=true&vCenter=true&width=620&height=38&lines=Linux+Desktop+%26+Open-source+Developer;Building+for+the+Hyprland+ecosystem;Polished+desktop+tools%2C+built+in+the+open)](https://git.io/typing-svg)
+<!-- Hero: terminal-style title -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=2800&pause=800&color=00C9FF&center=true&vCenter=true&width=720&height=44&lines=Villode%20%E2%9C%A6%20Building%20a%20Polished%20Desktop%20for%20Hyprland" />
+  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=2800&pause=800&color=7F00FF&center=true&vCenter=true&width=720&height=44&lines=Villode%20%E2%9C%A6%20Building%20a%20Polished%20Desktop%20for%20Hyprland" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=2800&pause=800&color=00C9FF&center=true&vCenter=true&width=720&height=44&lines=Villode%20%E2%9C%A6%20Building%20a%20Polished%20Desktop%20for%20Hyprland" alt="Villode" />
+</picture>
 
-<p><em>Building a polished, accessible desktop experience for Hyprland.</em></p>
+<p align="center">
+  <em>Linux desktop tools — built for Hyprland, designed to feel native.</em>
+</p>
 
-[![Website](https://img.shields.io/badge/Website-Villode.com-7F00FF?style=flat-square&logo=googlechrome&logoColor=white)](https://villode.com)
-![Linux](https://img.shields.io/badge/Platform-Linux-00C9FF?style=flat-square&logo=linux&logoColor=white)
-![Focus](https://img.shields.io/badge/Focus-Hyprland-00A67E?style=flat-square&logo=wayland&logoColor=white)
+<a href="https://villode.com"><img src="https://img.shields.io/badge/Website-Villode.com-7F00FF?style=flat-square&logo=googlechrome&logoColor=white" /></a>
+<img src="https://img.shields.io/badge/Platform-Linux-00C9FF?style=flat-square&logo=linux&logoColor=white" />
+<img src="https://img.shields.io/badge/Focus-Hyprland-00A67E?style=flat-square&logo=wayland&logoColor=white" />
+<img src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square" />
 
-<br /><br />
-
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Villode/Villode/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Villode/Villode/output/github-contribution-grid-snake.svg" />
-    <img src="https://raw.githubusercontent.com/Villode/Villode/output/github-contribution-grid-snake.svg" alt="Contribution snake animation" />
-  </picture>
 </div>
 
 ---
 
-## `> featured_projects`
+## Featured Projects
 
 <table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Villode/villode-caelestia">✨ villode-caelestia</a></h3>
-      <p>Caelestia 二次开发整合：按需安装中文化、Dock、Desktop 和 Launcher。</p>
-      <img src="https://img.shields.io/badge/Shell-121629?style=flat-square&logo=gnubash&logoColor=00C9FF" alt="Shell" />
-      <img src="https://img.shields.io/github/stars/Villode/villode-caelestia?style=flat-square&color=7F00FF" alt="Stars" />
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Villode/villode-launcher">🚀 villode-launcher</a></h3>
-      <p>为 Hyprland 打造的 macOS 风格 GTK4 应用启动器。</p>
-      <img src="https://img.shields.io/badge/Python-121629?style=flat-square&logo=python&logoColor=00C9FF" alt="Python" />
-      <img src="https://img.shields.io/github/stars/Villode/villode-launcher?style=flat-square&color=7F00FF" alt="Stars" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Villode/villode-desktop">🖼️ villode-desktop</a></h3>
-      <p>支持图片、视频和自定义 HTML 的 Hyprland 桌面背景管理器。</p>
-      <img src="https://img.shields.io/badge/HTML-121629?style=flat-square&logo=html5&logoColor=00C9FF" alt="HTML" />
-      <img src="https://img.shields.io/github/stars/Villode/villode-desktop?style=flat-square&color=7F00FF" alt="Stars" />
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Villode/villode-dock">🌌 villode-dock</a></h3>
-      <p>带实时 Hyprland 模糊与 Launcher 集成的 macOS 风格 GTK3 Dock。</p>
-      <img src="https://img.shields.io/badge/Python-121629?style=flat-square&logo=python&logoColor=00C9FF" alt="Python" />
-      <img src="https://img.shields.io/github/stars/Villode/villode-dock?style=flat-square&color=7F00FF" alt="Stars" />
-    </td>
-  </tr>
+<tr>
+<td width="50%" valign="top">
+
+### [Caelestia Integration](https://github.com/Villode/villode-caelestia)
+
+Unified installer for Caelestia Shell with optional Chinese UI, Dock, Desktop, and Launcher.
+
+*Pinned releases · Smart dependency detection · One-click install*
+
+![Stars](https://img.shields.io/github/stars/Villode/villode-caelestia?style=flat-square&color=7F00FF)
+![Shell](https://img.shields.io/badge/Shell-121629?style=flat-square&logo=gnubash&logoColor=00C9FF)
+
+</td>
+<td width="50%" valign="top">
+
+### [Villode Dock](https://github.com/Villode/villode-dock)
+
+macOS-style dock with real-time Hyprland blur, drag-to-reorder, and glass menus.
+
+*GTK3 · GtkLayerShell · Wayland native*
+
+![Stars](https://img.shields.io/github/stars/Villode/villode-dock?style=flat-square&color=7F00FF)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [Villode Launcher](https://github.com/Villode/villode-launcher)
+
+macOS Launchpad-style app launcher for Hyprland with keyboard search.
+
+*GTK4 · Adwaita · Keyboard-first*
+
+![Stars](https://img.shields.io/github/stars/Villode/villode-launcher?style=flat-square&color=7F00FF)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+</td>
+<td width="50%" valign="top">
+
+### [Villode Desktop](https://github.com/Villode/villode-desktop)
+
+Dynamic wallpaper manager supporting images, video, and HTML5 canvases.
+
+*HTML5 · Canvas · Wayland layer shell*
+
+![Stars](https://img.shields.io/github/stars/Villode/villode-desktop?style=flat-square&color=7F00FF)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+
+</td>
+</tr>
 </table>
 
-## `> tech_stack`
+---
+
+## Tech Stack
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=linux,python,bash,qt,js,html,css,git,github,vscode&theme=dark&perline=10" alt="Tech stack" />
+  <img src="https://skillicons.dev/icons?i=linux,python,bash,qt,html,css,git,github,vscode&theme=dark&perline=10" alt="Tech stack" />
 </div>
 
-## `> achievements --stats`
+---
+
+## Activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Villode/Villode/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Villode/Villode/output/github-contribution-grid-snake.svg" />
+  <img src="https://raw.githubusercontent.com/Villode/Villode/output/github-contribution-grid-snake.svg" alt="Contribution snake animation" />
+</picture>
 
 <div align="center">
-  <img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Villode&theme=tokyonight" alt="GitHub profile details" />
+  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=Villode&theme=tokyo-night&hide_border=true&radius=12&area=true" alt="Contribution activity graph" />
+</div>
+
+---
+
+## Stats
+
+<div align="center">
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Villode&theme=tokyonight" alt="GitHub stats" />
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Villode&theme=tokyonight" alt="Repositories per language" />
   <br />
   <img width="49%" src="https://streak-stats.demolab.com?user=Villode&theme=tokyonight&hide_border=true&border_radius=12&locale=zh_Hans" alt="GitHub streak" />
-  <br />
-  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=Villode&theme=tokyo-night&hide_border=true&radius=12&area=true" alt="Contribution activity graph" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Villode&theme=tokyonight" alt="GitHub profile details" />
 </div>
+
+---
 
 <div align="center">
 
-### Thanks for visiting · 感谢来访
-
-如果我的项目对你有帮助，欢迎留下一个 ⭐
+*Built with ❤️ for the Hyprland community.*
 
 </div>
