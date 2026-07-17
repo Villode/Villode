@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0a0e1a"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="glow1" x1="200" y1="100" x2="500" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="glow2" x1="800" y1="50" x2="1100" y2="350" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="line1" x1="0" y1="0" x2="1280" y2="0">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#3b82f6" stop-opacity="0.6"/>
+      <stop offset="70%" stop-color="#8b5cf6" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blur1">
+      <feGaussianBlur stdDeviation="80"/>
+    </filter>
+    <filter id="blur2">
+      <feGaussianBlur stdDeviation="60"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="400" fill="url(#bg)"/>
+
+  <!-- Ambient glow orbs -->
+  <circle cx="350" cy="180" r="200" fill="url(#glow1)" filter="url(#blur1)"/>
+  <circle cx="950" cy="220" r="180" fill="url(#glow2)" filter="url(#blur2)"/>
+
+  <!-- Subtle grid pattern -->
+  <g opacity="0.04" stroke="#3b82f6" stroke-width="1">
+    <line x1="0" y1="80" x2="1280" y2="80"/>
+    <line x1="0" y1="160" x2="1280" y2="160"/>
+    <line x1="0" y1="240" x2="1280" y2="240"/>
+    <line x1="0" y1="320" x2="1280" y2="320"/>
+    <line x1="256" y1="0" x2="256" y2="400"/>
+    <line x1="512" y1="0" x2="512" y2="400"/>
+    <line x1="768" y1="0" x2="768" y2="400"/>
+    <line x1="1024" y1="0" x2="1024" y2="400"/>
+  </g>
+
+  <!-- Terminal window decoration -->
+  <rect x="80" y="100" width="480" height="200" rx="12" fill="#111827" opacity="0.7" stroke="#1f2937" stroke-width="1"/>
+  <rect x="80" y="100" width="480" height="36" rx="12" fill="#1f2937"/>
+  <rect x="80" y="118" width="480" height="18" fill="#1f2937"/>
+  <!-- Traffic lights -->
+  <circle cx="100" cy="118" r="6" fill="#ef4444"/>
+  <circle cx="120" cy="118" r="6" fill="#eab308"/>
+  <circle cx="140" cy="118" r="6" fill="#22c55e"/>
+  <!-- Terminal content -->
+  <text x="100" y="155" font-family="monospace" font-size="13" fill="#6b7280">$</text>
+  <text x="116" y="155" font-family="monospace" font-size="13" fill="#e5e7eb">hyprctl dispatch exec</text>
+  <text x="340" y="155" font-family="monospace" font-size="13" fill="#3b82f6">villode-dock</text>
+  <text x="100" y="175" font-family="monospace" font-size="13" fill="#6b7280">$</text>
+  <text x="116" y="175" font-family="monospace" font-size="13" fill="#e5e7eb">villode-caelestia-update</text>
+  <text x="100" y="195" font-family="monospace" font-size="13" fill="#6b7280">$</text>
+  <text x="116" y="195" font-family="monospace" font-size="13" fill="#22c55e">✓</text>
+  <text x="136" y="195" font-family="monospace" font-size="13" fill="#e5e7eb">Everything up to date</text>
+  <text x="100" y="215" font-family="monospace" font-size="13" fill="#6b7280">$</text>
+  <text x="116" y="215" font-family="monospace" font-size="13" fill="#e5e7eb">caelestia shell -d</text>
+  <text x="100" y="235" font-family="monospace" font-size="13" fill="#6b7280">$</text>
+  <text x="116" y="235" font-family="monospace" font-size="13" fill="#22c55e">✓</text>
+  <text x="136" y="235" font-family="monospace" font-size="13" fill="#e5e7eb">Shell started</text>
+  <text x="100" y="255" font-family="monospace" font-size="13" fill="#6b7280">$</text>
+  <text x="116" y="255" font-family="monospace" font-size="13" fill="#9ca3af">█</text>
+
+  <!-- Right side: app icons floating -->
+  <g transform="translate(680, 120)">
+    <!-- Dock icon 1 -->
+    <rect x="0" y="0" width="56" height="56" rx="12" fill="#1f2937" stroke="#374151" stroke-width="1"/>
+    <text x="28" y="34" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#3b82f6">▲</text>
+    <!-- Dock icon 2 -->
+    <rect x="72" y="0" width="56" height="56" rx="12" fill="#1f2937" stroke="#374151" stroke-width="1"/>
+    <text x="100" y="34" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#8b5cf6">◆</text>
+    <!-- Dock icon 3 -->
+    <rect x="144" y="0" width="56" height="56" rx="12" fill="#1f2937" stroke="#374151" stroke-width="1"/>
+    <text x="172" y="34" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#06b6d4">●</text>
+    <!-- Dock icon 4 -->
+    <rect x="216" y="0" width="56" height="56" rx="12" fill="#1f2937" stroke="#374151" stroke-width="1"/>
+    <text x="244" y="34" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#22c55e">■</text>
+    <!-- Dock icon 5 -->
+    <rect x="288" y="0" width="56" height="56" rx="12" fill="#1f2937" stroke="#374151" stroke-width="1"/>
+    <text x="316" y="34" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#f59e0b">★</text>
+    <!-- Dock reflection -->
+    <rect x="0" y="60" width="56" height="8" rx="4" fill="#3b82f6" opacity="0.15"/>
+    <rect x="72" y="60" width="56" height="8" rx="4" fill="#8b5cf6" opacity="0.15"/>
+    <rect x="144" y="60" width="56" height="8" rx="4" fill="#06b6d4" opacity="0.15"/>
+    <rect x="216" y="60" width="56" height="8" rx="4" fill="#22c55e" opacity="0.15"/>
+    <rect x="288" y="60" width="56" height="8" rx="4" fill="#f59e0b" opacity="0.15"/>
+  </g>
+
+  <!-- Desktop background layer hint -->
+  <rect x="680" y="200" width="360" height="180" rx="8" fill="#0f172a" opacity="0.5" stroke="#1e293b" stroke-width="1"/>
+  <text x="700" y="230" font-family="sans-serif" font-size="14" fill="#6b7280">desktop layer</text>
+  <rect x="700" y="245" width="320" height="120" rx="6" fill="#1e293b" opacity="0.3"/>
+  <text x="720" y="275" font-family="monospace" font-size="11" fill="#4b5563">wallpaper · blur · widgets</text>
+
+  <!-- Connecting line -->
+  <line x1="560" y1="200" x2="680" y2="148" stroke="url(#line1)" stroke-width="1" opacity="0.5"/>
+
+  <!-- Title text -->
+  <text x="640" y="60" text-anchor="middle" font-family="sans-serif" font-weight="700" font-size="42" fill="#f1f5f9" letter-spacing="-1">Villode</text>
+  <text x="640" y="90" text-anchor="middle" font-family="monospace" font-size="14" fill="#6b7280" letter-spacing="2">POLISHED DESKTOP FOR HYPRLAND</text>
+
+  <!-- Bottom accent line -->
+  <rect x="0" y="396" width="1280" height="4" fill="url(#accent)" opacity="0.6"/>
+</svg>
