@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540" role="img" aria-labelledby="title desc">
+  <title id="title">The Villode desktop stack</title>
+  <desc id="desc">A system map showing Caelestia Shell coordinating the Villode Dock, Launcher, Desktop and the Arch-based Villode OS.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0B1020"/><stop offset="1" stop-color="#06080E"/></linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00C9FF"/><stop offset="1" stop-color="#7F00FF"/></linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#17233A"/><stop offset="1" stop-color="#0C1322"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#26314A" stroke-width="1" opacity=".38"/></pattern>
+  </defs>
+  <rect width="1200" height="540" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="540" rx="28" fill="url(#grid)"/>
+  <g transform="translate(54 42)">
+    <text x="0" y="18" fill="#00C9FF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" letter-spacing="2">01 / DESKTOP STACK</text>
+    <text x="0" y="70" fill="#F4F7FB" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="42" font-weight="720">One session. Five cooperating layers.</text>
+    <text x="0" y="104" fill="#8D9AB0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18">A modular Hyprland environment assembled around native Wayland boundaries.</text>
+  </g>
+
+  <g id="connections" fill="none" stroke-linecap="round">
+    <path d="M600 274C475 274 455 260 360 260" stroke="#00C9FF" stroke-width="3"/>
+    <path d="M600 274C725 274 745 260 840 260" stroke="#7F00FF" stroke-width="3"/>
+    <path d="M600 308C500 340 465 388 360 408" stroke="#00A67E" stroke-width="3"/>
+    <path d="M600 308C700 340 735 388 840 408" stroke="#7F00FF" stroke-width="3"/>
+    <path d="M600 338V463" stroke="url(#line)" stroke-width="3"/>
+  </g>
+
+  <g id="center" transform="translate(455 192)">
+    <rect width="290" height="150" rx="26" fill="url(#glass)" stroke="#43506A" stroke-width="2"/>
+    <rect x="18" y="18" width="254" height="6" rx="3" fill="url(#line)"/>
+    <text x="145" y="63" text-anchor="middle" fill="#F4F7FB" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="26" font-weight="700">CAELESTIA SHELL</text>
+    <text x="145" y="91" text-anchor="middle" fill="#8D9AB0" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15">SESSION ORCHESTRATOR</text>
+    <g transform="translate(67 112)">
+      <circle cx="0" cy="0" r="5" fill="#00C9FF"/><text x="12" y="5" fill="#C7D0DE" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">WAYLAND</text>
+      <circle cx="105" cy="0" r="5" fill="#00A67E"/><text x="117" y="5" fill="#C7D0DE" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">UWSM</text>
+    </g>
+  </g>
+
+  <g id="dock" transform="translate(92 205)">
+    <rect width="268" height="112" rx="22" fill="#0C1322" stroke="#2B3952"/>
+    <text x="24" y="34" fill="#00C9FF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">INTERACTION / 01</text>
+    <text x="24" y="68" fill="#F4F7FB" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24" font-weight="650">Villode Dock</text>
+    <g transform="translate(161 70)"><rect x="0" y="0" width="22" height="22" rx="7" fill="#12576A"/><rect x="30" y="-7" width="29" height="29" rx="9" fill="#5C22B6"/><rect x="67" y="0" width="22" height="22" rx="7" fill="#29364C"/></g>
+  </g>
+  <g id="launcher" transform="translate(840 205)">
+    <rect width="268" height="112" rx="22" fill="#0C1322" stroke="#2B3952"/>
+    <text x="24" y="34" fill="#A76BFF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">INTERACTION / 02</text>
+    <text x="24" y="68" fill="#F4F7FB" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24" font-weight="650">Villode Launcher</text>
+    <g transform="translate(188 46)" fill="#27344C"><rect width="18" height="18" rx="5"/><rect x="24" width="18" height="18" rx="5"/><rect y="24" width="18" height="18" rx="5"/><rect x="24" y="24" width="18" height="18" rx="5" fill="#672AC2"/></g>
+  </g>
+  <g id="desktop" transform="translate(92 365)">
+    <rect width="268" height="112" rx="22" fill="#0C1322" stroke="#2B3952"/>
+    <text x="24" y="34" fill="#00A67E" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">CANVAS / 03</text>
+    <text x="24" y="68" fill="#F4F7FB" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24" font-weight="650">Villode Desktop</text>
+    <path d="M190 75l22-26 17 19 12-12 18 24h-69z" fill="#0B705C"/><circle cx="240" cy="43" r="7" fill="#00C9FF"/>
+  </g>
+  <g id="localization" transform="translate(840 365)">
+    <rect width="268" height="112" rx="22" fill="#0C1322" stroke="#2B3952"/>
+    <text x="24" y="34" fill="#A76BFF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">EXPERIENCE / 04</text>
+    <text x="24" y="68" fill="#F4F7FB" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24" font-weight="650">Chinese UI</text>
+    <text x="193" y="79" fill="#7F00FF" font-family="'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="44" font-weight="700">译</text>
+  </g>
+  <g id="os" transform="translate(455 445)">
+    <rect width="290" height="64" rx="20" fill="#10182A" stroke="url(#line)" stroke-width="2"/>
+    <text x="24" y="27" fill="#8D9AB0" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">DISTRIBUTION LAYER</text>
+    <text x="24" y="49" fill="#F4F7FB" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" font-weight="680">VILLODE OS</text>
+    <text x="260" y="40" text-anchor="end" fill="#00C9FF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15">ARCHISO</text>
+  </g>
+</svg>

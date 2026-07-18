@@ -18,54 +18,57 @@
   </picture>
 </div>
 
----
+<br />
 
-## What I Build
+<p align="center">
+  <img src="./assets/readme/ecosystem.svg" width="100%" alt="The Villode Hyprland desktop stack connects Caelestia Shell with Dock, Launcher, Desktop, Chinese UI and Villode OS">
+</p>
 
-Tools that make **Hyprland** feel like a complete desktop — not just a tiling window manager, but a polished, accessible environment.
+Tools that make **Hyprland** feel like a complete desktop — modular enough to use independently, coordinated enough to install as one tested session.
 
-| Project | What it does | Built with |
-| --- | --- | --- |
-| [**villode-caelestia**](https://github.com/Villode/villode-caelestia) | One-click installer for Caelestia Shell + optional Dock, Desktop, Launcher, and Chinese UI | Bash · Shell · Python |
-| [**villode-dock**](https://github.com/Villode/villode-dock) | macOS-style dock with real-time blur, drag-to-reorder, and glass menus | Python · GTK3 · GtkLayerShell |
-| [**villode-launcher**](https://github.com/Villode/villode-launcher) | Launchpad-style app grid with keyboard-first search | Python · GTK4 · Adwaita |
-| [**villode-desktop**](https://github.com/Villode/villode-desktop) | Dynamic wallpaper layer supporting images, video, and HTML5 | Python · HTML5 · Canvas |
+- **[Villode Caelestia](https://github.com/u0n0u/villode-caelestia)** — pinned Shell, Chinese UI and a unified component installer.
+- **[Villode Dock](https://github.com/u0n0u/villode-dock)** — a GTK3 Dock with compositor-native blur, drag ordering and Launcher integration.
+- **[Villode Launcher](https://github.com/u0n0u/villode-launcher)** — a GTK4 application grid with search, categories and keyboard-first control.
+- **[Villode Desktop](https://github.com/u0n0u/villode-desktop)** — a background layer for static images, video and local or remote HTML.
+- **[Villode OS](https://github.com/Villode/villode-os)** — an ArchISO-based path from the component stack to a bootable desktop image.
 
----
+<p align="center">
+  <img src="./assets/readme/workflow.svg" width="100%" alt="Villode workflow from terminal prototype to pinned source, live Hyprland verification and release">
+</p>
 
-## How I Work
+Everything starts in the terminal. I prototype in Python and Bash, pin complete component commits, test them together in a live Hyprland session, and only then move them into the release channel.
 
+```text
+terminal → prototype → pin → live test → verify → ship
 ```
-terminal → code → build → test → ship
-```
 
-Everything starts in the terminal. I prototype in Python/Bash, test on live Hyprland, and ship through a pinned release channel so users get stable versions without breaking their setup.
+**Design principles**
 
-**Design philosophy:**
-- Native Wayland first — no X11 fallbacks
-- Keyboard-accessible — Super+Return, Super+D, Super+E
-- Glass blur where it makes sense, not everywhere
-- One installer that works from TTY or desktop
+- Native Wayland first — no X11 fallback hidden behind the interface.
+- Keyboard-accessible — core actions stay reachable through predictable `Super` shortcuts.
+- Recoverable changes — existing sessions remain available unless replacement is explicitly requested.
+- Glass blur where it communicates depth or state, not on every surface.
+- One installer that remains understandable from either TTY or desktop.
 
----
-
-## Tech Stack
+<p align="center">
+  <img src="./assets/readme/toolbox.svg" width="100%" alt="Villode toolbox includes Linux, Python, Bash, GTK, Wayland, HTML, Git and ArchISO">
+</p>
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=linux,python,bash,qt,html,css,git,github&theme=dark&perline=10" />
+  <img src="https://skillicons.dev/icons?i=linux,python,bash,qt,html,css,git,github&theme=dark&perline=10" alt="Linux, Python, Bash, Qt, HTML, CSS, Git and GitHub" />
 </div>
 
----
+<br />
 
-## Activity
+<p align="center">
+  <img src="./assets/readme/signal.svg" width="100%" alt="Open source activity and contribution signal">
+</p>
 
 <div align="center">
   <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=Villode&theme=tokyo-night&hide_border=true&radius=12&area=true" alt="Contribution activity graph" />
 </div>
 
----
-
-## Stats
+<br />
 
 <div align="center">
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Villode&theme=tokyonight" alt="GitHub stats" />
@@ -75,7 +78,7 @@ Everything starts in the terminal. I prototype in Python/Bash, test on live Hypr
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Villode&theme=tokyonight" alt="GitHub profile details" />
 </div>
 
----
+<br />
 
 <div align="center">
 

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="160" viewBox="0 0 1200 160" role="img" aria-labelledby="title desc">
+  <title id="title">Open source signal</title>
+  <desc id="desc">A section transition introducing GitHub activity and contribution statistics.</desc>
+  <defs><linearGradient id="bg"><stop stop-color="#08121A"/><stop offset=".5" stop-color="#0D1020"/><stop offset="1" stop-color="#120922"/></linearGradient><linearGradient id="wave"><stop stop-color="#00C9FF"/><stop offset=".5" stop-color="#00A67E"/><stop offset="1" stop-color="#7F00FF"/></linearGradient></defs>
+  <rect width="1200" height="160" rx="28" fill="url(#bg)"/>
+  <g transform="translate(54 38)"><text x="0" y="18" fill="#00C9FF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" letter-spacing="2">04 / OPEN SOURCE SIGNAL</text><text x="0" y="68" fill="#F4F7FB" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="38" font-weight="720">Work in public. Learn in motion.</text></g>
+  <path d="M710 92h55l18-32 24 63 28-86 34 67 26-39 27 27h44l26-48 29 79 30-57 22 26h63" fill="none" stroke="url(#wave)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="1116" cy="92" r="7" fill="#7F00FF"/>
+</svg>
